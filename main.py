@@ -1,6 +1,5 @@
-message = "hello world!"
-hello = "hello"
-print(hello in message)  
- 
-gold = "world"
-print(gold in message)  
+userName = input("Введіть своє ім'я:")
+userAge =  input("Введіть свій вік:")
+
+user = f"Привіт,{userName}. Тобі:{userAge}"
+print(user)
